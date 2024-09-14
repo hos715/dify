@@ -20,6 +20,7 @@ class NodeType(str, Enum):
     ITERATION_START = "iteration-start"  # Fake start node for iteration.
     PARAMETER_EXTRACTOR = "parameter-extractor"
     CONVERSATION_VARIABLE_ASSIGNER = "assigner"
+    DOCUMENT_EXTRACTOR = "document-extractor"
 
     @classmethod
     def value_of(cls, value: str):
